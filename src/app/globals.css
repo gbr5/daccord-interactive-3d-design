@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+h1 {
+  font-family: var(--font-spline-mono);
+}
+h2, h3, h4, h5, h6, p {
+  /* font-family: --font-spline-sans; */
+  font-family: var(--font-spline-sans);
+  /* font-family: font-sans; */
+}
