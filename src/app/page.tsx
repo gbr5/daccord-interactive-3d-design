@@ -19,13 +19,13 @@ export default function Home() {
           {/* <div className="gradient h-1/3 w-auto bg-gradient-to-br from-violet-500 to-fuchsia-500" /> */}
           <div className="gradient h-1/3 w-auto bg-gradient-to-br from-blue-900 to-fuchsia-500" />
         </div>
-        <div className='text__grid grid grid-cols-2 h-full m-0 p-0 pt-2 z-40'>
-          <div className='flex flex-col gap-16 h-full m-0 p-0 w-full'>
-            <h1 className='w-11/12 text-6xl font-mono leading-normal'>
+        <div className='text__grid w-1/3 h-full m-0 p-0 pt-2 z-40'>
+          <div className='flex flex-col gap-16 h-full m-0 p-0 w-auto'>
+            <h1 className='w-full text-6xl font-mono leading-normal'>
               Collaborate with people
             </h1>
 
-            <p className='font-sans w-9/12 text-md leading-7'>
+            <p className='font-sans w-full text-md leading-6'>
               Bring your team together and build your community by using our cross-platform app that lets you collaborate via chat, voice and by sharing and storing unlimited media files. A world of topics is waiting for you. Join the private beta.
             </p>
             <Link
