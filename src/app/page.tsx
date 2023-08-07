@@ -14,10 +14,10 @@ export default function Home() {
       <div className='flex mt-1'>
           {/* <div className="gradient h-full w-auto bg-gradient-to-br from-cyan-500 to-fuchsia-500" /> */}
         <div className="gradient__container h-auto w-1 mr-14">
-          <div className="gradient h-1/3 w-auto bg-gradient-to-br from-cyan-500 to-blue-700" />
-          <div className="gradient h-1/3 w-auto bg-gradient-to-br from-blue-500 to-blue-900" />
-          {/* <div className="gradient h-1/3 w-auto bg-gradient-to-br from-violet-500 to-fuchsia-500" /> */}
-          <div className="gradient h-1/3 w-auto bg-gradient-to-br from-blue-900 to-fuchsia-500" />
+          <div className="gradient h-1/3 w-1/5 bg-gradient-to-br from-cyan-500 to-blue-700" />
+          <div className="gradient h-1/3 w-1/5 bg-gradient-to-br from-blue-500 to-blue-900" />
+          {/* <div className="gradient h-1/3 w-1/5 bg-gradient-to-br from-violet-500 to-fuchsia-500" /> */}
+          <div className="gradient h-1/3 w-1/5 bg-gradient-to-br from-blue-900 to-fuchsia-500" />
         </div>
         <div className='text__grid w-1/3 h-full m-0 p-0 pt-2 z-40'>
           <div className='flex flex-col gap-16 h-full m-0 p-0 w-auto'>
